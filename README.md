@@ -25,3 +25,4 @@ Mall Customer Segmentation Dataset (200 customer records).
 
 ## Developer
 Utkarsh Shekhar
+Freya Chopra
