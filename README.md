@@ -24,5 +24,4 @@ A Machine Learning project that identifies customer groups based on Annual Incom
 Mall Customer Segmentation Dataset (200 customer records).
 
 ## Developer
-Utkarsh Shekhar
-Freya Chopra
+Utkarsh Shekhar & Freya Chopra
