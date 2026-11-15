@@ -1,0 +1,106 @@
+# CUSTOMER SEGMENTATION SYSTEM USING UNSUPERVISED MACHINE LEARNING
+
+## 1. Introduction
+
+Customer Segmentation is the process of dividing customers into groups based on similarities in their characteristics and purchasing behaviour.
+
+This project uses Unsupervised Machine Learning to identify customer groups based on Annual Income and Spending Score.
+
+The system uses K-Means Clustering to classify customers into five segments and provides an interactive web application for predicting the segment of a new customer.
+
+## 2. Objectives
+
+- Understand the application of Unsupervised Machine Learning.
+- Perform feature selection and feature scaling.
+- Apply K-Means Clustering to customer data.
+- Study Agglomerative Hierarchical Clustering.
+- Understand dimensionality reduction using PCA.
+- Develop an interactive application using Streamlit.
+
+## 3. Dataset Description
+
+The project uses a Mall Customer Segmentation dataset containing 200 customer records and five columns:
+
+- CustomerID
+- Gender
+- Age
+- Annual Income (k$)
+- Spending Score (1–100)
+
+The selected features for clustering are:
+1. Annual Income (k$)
+2. Spending Score (1–100)
+
+## 4. Methodology
+
+### Step 1: Data Loading
+The dataset was loaded using Pandas and examined to understand its structure.
+
+### Step 2: Data Preprocessing
+The dataset was checked for missing values and relevant features were selected.
+
+### Step 3: Feature Scaling
+StandardScaler was used to standardize the selected features so that they could contribute appropriately to distance-based clustering.
+
+### Step 4: K-Means Clustering
+K-Means clustering was applied with five clusters to group customers based on their income and spending behaviour.
+
+### Step 5: Hierarchical Clustering
+Agglomerative Hierarchical Clustering was applied to study another approach to customer grouping.
+
+### Step 6: Principal Component Analysis
+PCA was applied to reduce the two selected features into one principal component and demonstrate dimensionality reduction.
+
+### Step 7: Web Application
+The trained K-Means model and fitted scaler were saved using Joblib and integrated into a Streamlit application.
+
+## 5. Results
+
+The K-Means algorithm identified five customer segments:
+
+| Cluster | Customer Segment | Customers |
+|---|---|---:|
+| 0 | Low Income, Low Spending | 23 |
+| 1 | Low Income, High Spending | 22 |
+| 2 | High Income, Low Spending | 35 |
+| 3 | High Income, High Spending | 39 |
+| 4 | Moderate Income, Moderate Spending | 81 |
+
+Total customers: 200.
+
+## 6. Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Joblib
+- Streamlit
+- Visual Studio Code
+- GitHub
+
+## 7. Conclusion
+
+The project successfully demonstrates how Unsupervised Machine Learning can be used to identify meaningful customer groups from customer data.
+
+K-Means and Agglomerative Hierarchical Clustering were studied, while PCA demonstrated dimensionality reduction.
+
+A web application was developed using Streamlit, allowing users to enter customer information and receive a predicted customer segment using the trained K-Means model.
+
+## 8. Future Scope
+
+- Add more customer features.
+- Use larger customer datasets.
+- Improve the visual presentation of customer segments.
+- Store prediction history permanently.
+- Integrate the system with a real business database.
+
+## 9. Live Application
+
+https://utk-shekhar-customer-segmentation-system-app-0pdn75.streamlit.app/
+
+## 10. GitHub Repository
+
+https://github.com/utk-shekhar/Customer-Segmentation-System
