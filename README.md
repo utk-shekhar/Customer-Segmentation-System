@@ -5,6 +5,7 @@ A Machine Learning project that identifies customer groups based on Annual Incom
 ## Live Application
 
 [Open Customer Segmentation System](https://utk-shekhar-customer-segmentation-system-app-0pdn75.streamlit.app/)
+
 https://utk-shekhar-customer-segmentation-system-app-0pdn75.streamlit.app/
 
 ## Technologies Used
